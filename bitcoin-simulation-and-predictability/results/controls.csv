@@ -1,0 +1,10 @@
+dataset,expected,model,accuracy,n,p vs 50 %,p vs majority rule
+Negative control: random walk (unpredictable by construction),≈ 50 %,Always 'up',0.5002541942043721,1967,,
+Negative control: random walk (unpredictable by construction),≈ 50 %,Logistic regression,0.4870360955770208,1967,0.8794992119230878,0.8839635331206597
+Negative control: random walk (unpredictable by construction),≈ 50 %,Gradient boosting,0.4931367564819522,1967,0.7360820745065653,0.7433999721858662
+Positive control: i.i.d. uniform prices (original course data),> 50 %,Always 'up',0.4992374173868836,1967,,
+Positive control: i.i.d. uniform prices (original course data),> 50 %,Logistic regression,0.7361464158617184,1967,2.1107650017862642e-101,8.700155599074275e-101
+Positive control: i.i.d. uniform prices (original course data),> 50 %,Gradient boosting,0.7249618708693442,1967,7.305854246040066e-92,2.8163261905185746e-91
+"Real Bitcoin, 2021–2026",?,Always 'up',0.508130081300813,1968,,
+"Real Bitcoin, 2021–2026",?,Logistic regression,0.5111788617886179,1968,0.16619967310564127,0.4021185167577114
+"Real Bitcoin, 2021–2026",?,Gradient boosting,0.5142276422764228,1968,0.1075202645609107,0.30208153280145394

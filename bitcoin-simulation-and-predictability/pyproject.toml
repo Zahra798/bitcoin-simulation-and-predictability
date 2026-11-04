@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "btcsim"
+version = "1.0.0"
+description = "Bitcoin: Monte Carlo simulation, Value-at-Risk and a careful test of predictability"
+readme = "README.md"
+license = { text = "MIT (code); data CC BY-NC 4.0, Coin Metrics" }
+authors = [{ name = "Zahra Hosseini" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.1", "scipy>=1.11", "scikit-learn>=1.4", "matplotlib>=3.8", "tabulate>=0.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["btcsim"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

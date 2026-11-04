@@ -1,0 +1,26 @@
+{
+  "garch_2014_2020": {
+    "mu (daily)": 0.0015081709445761919,
+    "omega": 1.8340539674375088e-05,
+    "alpha": 0.10910425999406295,
+    "beta": 0.8790522276552722,
+    "nu (t d.o.f.)": 3.3298532650636834,
+    "persistence alpha+beta": 0.9881564876493352,
+    "volatility half-life (days)": 58.17821276128403,
+    "log-likelihood": 5261.670327729835,
+    "converged": true
+  },
+  "gbm_2014_2020": {
+    "GBM mu": 0.00221510342280842,
+    "GBM sigma": 0.0393596054216129,
+    "loglik gain GARCH-t vs normal": 617.4622096626317
+  },
+  "fan_chart": {
+    "start date": "2025-05-23",
+    "start price": 107292.0,
+    "end date": "2026-05-23",
+    "actual final price": 76619.9,
+    "actual max drawdown": 0.49132618727167854
+  },
+  "mc_exact_probability": 0.05250869542413941
+}

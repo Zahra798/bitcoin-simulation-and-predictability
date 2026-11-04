@@ -1,0 +1,5 @@
+model,median final price,90 % range of final price,P(final < start),percentile of actual final price,days inside 90 % band,P(drawdown ≥ actual)
+"GBM (normal, i.i.d.)",168732.22623994842,"53,297 – 529,463",0.26,0.12835000000000002,1.0,0.4059
+i.i.d. bootstrap,169138.64596956898,"52,145 – 523,482",0.26095,0.13419999999999999,1.0,0.39235
+block bootstrap,165099.40714767814,"50,235 – 565,917",0.27865,0.14915,1.0,0.44905
+"GARCH(1,1)-t",165671.44000188523,"66,007 – 414,624",0.1952,0.0741,0.9287671232876712,0.1931
